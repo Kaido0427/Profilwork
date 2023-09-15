@@ -1,0 +1,37 @@
+.barre-job {
+  height: 2px;
+  width: 100%;
+  /* ajustez ce pourcentage en fonction de vos besoins */
+  max-width: 500px;
+  /* ajustez cette valeur en fonction de vos besoins */
+  background-color: rgb(100, 203, 112);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.center-div-job {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 50%;
+  margin-top: 280px;
+}
+
+option:hover {
+  background-color: rgb(100, 203, 112);
+}
+
+.fullscreen {
+  width: 100%;
+  min-height: 100vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  background: #9053c7;
+  background: linear-gradient(-135deg, rgb(173, 216, 230), rgb(100, 203, 112));
+}
